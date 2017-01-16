@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43c0bbf-2d4b-4d92-baa8-425bcff39b5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ContainsDuplicate2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DisappearedNumbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BuyAndSell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,16 +45,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DisappearedNumbers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DisappearedNumbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DisappearedNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="554">
               <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#231#240#0" expanded="true" />
                 <element signature="e#758#767#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyAndSell.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BuyAndSell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="17" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/ContainsDuplicate2.java" />
         <option value="$PROJECT_DIR$/src/DisappearedNumbers.java" />
+        <option value="$PROJECT_DIR$/src/BuyAndSell.java" />
       </list>
     </option>
   </component>
@@ -150,22 +160,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.DisappearedNumbers">
-    <configuration default="false" name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="RotateArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="leetcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BuyAndSell">
     <configuration default="false" name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ContainsDuplicate" />
@@ -214,6 +209,21 @@
     <configuration default="false" name="DisappearedNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="DisappearedNumbers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="leetcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="BuyAndSell" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -476,19 +486,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RotateArray" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ContainsDuplicate" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PlusOne" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ContainsDuplicate2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DisappearedNumbers" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ContainsDuplicate" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PlusOne" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ContainsDuplicate2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DisappearedNumbers" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BuyAndSell" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DisappearedNumbers" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ContainsDuplicate2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PlusOne" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ContainsDuplicate" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RotateArray" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BuyAndSell" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DisappearedNumbers" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ContainsDuplicate2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PlusOne" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ContainsDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -524,7 +534,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33975086" sideWeight="0.5021482" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33975086" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33975086" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38391846" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -644,13 +654,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DisappearedNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="554">
           <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#231#240#0" expanded="true" />
             <element signature="e#758#767#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuyAndSell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="17" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
