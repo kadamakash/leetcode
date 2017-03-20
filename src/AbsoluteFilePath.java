@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 /**
  * Created by Akash on 2/13/2017.
  */
@@ -19,8 +21,41 @@ public class AbsoluteFilePath {
         }
         return maxLength;
     }
+
+    public static int solution1(String s){
+        String[] sentenses = s.split("\\.");
+
+        int maxCount = Integer.MIN_VALUE;
+        int curCount = 0;
+        for(String sen : sentenses){
+            curCount = sen.split("\\s+").length;
+            System.out.println(curCount);
+            maxCount = Math.max(curCount, maxCount);
+        }
+        return maxCount;
+    }
+
+    public static int solution2(int a, int b){
+
+            int cnt = 0; // Initialize result
+
+            // Traverse through all numbers
+            for (int i=a; i<=b; i++)
+
+                // Check if current number 'i' is perfect
+                // square
+                for (int j=1; j*j<=i; j++)
+                    if (j*j==i)
+                        cnt++;
+            return cnt;
+        }
+
+
     public static void main(String[] args){
         String path = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext";
-        System.out.print(findLength(path));
+        String path2 = "Hello. world us";
+        System.out.println(solution1("We test coders. Give us a try?"));
+
+
     }
 }

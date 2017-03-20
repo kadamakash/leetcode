@@ -23,9 +23,23 @@ public class LongestPalindromicSubsequence {
 
     }
 
+    // recursive without memoization
+    private static int palindSubs(String s){
+        return findPalind(s, 0, s.length()-1);
+
+    }
+    private static int findPalind(String s, int i, int j){
+        if(i==j) return 1;
+        else if(s.charAt(i) == s.charAt(j)){
+            return  2 + findPalind(s, i+1, j-1);
+        } else {
+            return Math.max(findPalind(s, i+1, j), findPalind(s, i, j-1));
+        }
+    }
+
     public static void main(String[] args){
         String in = "turboventilator";
 
-        System.out.println(findSubsequence(in));
+        System.out.println(palindSubs(in));
     }
 }
